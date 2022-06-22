@@ -4,3 +4,6 @@ for num in range(100):
         print(f"{num}, ")
     else:
         print(f"{num}")
+        print("{},".format(num), end = " ")
+    else:
+        print("{}".format(num))
